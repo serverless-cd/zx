@@ -1,0 +1,14 @@
+node_modules
+build
+docs
+examples
+lib
+src
+test
+test-d
+.gitignore
+.nycrc
+.prettierignore
+stryker.conf.json
+tsconfig.json
+tsconfig.prod.json

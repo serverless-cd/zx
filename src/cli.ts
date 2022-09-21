@@ -234,7 +234,7 @@ function transformMarkdown(buf: Buffer) {
 }
 
 function getVersion(): string {
-  return createRequire(import.meta.url)('../package.json').version
+  return require('../package.json').version
 }
 
 function printUsage() {
