@@ -1,6 +1,6 @@
 {
   "name": "@serverless-cd/zx",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A tool for writing better scripts. #508:Allow running a command from a string instead of string template",
   "main": "./dist/index.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "prepub": "npm run build",
     "pub": "npm publish"
   },
-  "dependencies": {
+  "devDependencies": {
     "@types/fs-extra": "^9.0.13",
     "@types/minimist": "^1.2.2",
     "@types/node": "^18.6.3",
@@ -30,9 +30,7 @@
     "node-fetch": "3.2.8",
     "ps-tree": "^1.2.0",
     "which": "^2.0.2",
-    "yaml": "^2.1.1"
-  },
-  "devDependencies": {
+    "yaml": "^2.1.1",
     "@stryker-mutator/core": "^6.1.2",
     "c8": "^7.12.0",
     "esbuild": "^0.15.8",
