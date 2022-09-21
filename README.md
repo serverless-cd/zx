@@ -1,3 +1,5 @@
+# fix: #508:Allow running a command from a string instead of string template
+
 # 🐚 zx
 
 ```js
