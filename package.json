@@ -1,6 +1,6 @@
 {
   "name": "@serverless-cd/zx",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "A tool for writing better scripts.",
   "main": "./dist/index.js",
   "scripts": {
