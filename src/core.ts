@@ -31,6 +31,12 @@ import {
   quote,
 } from './util.js'
 
+export { default as chalk } from 'chalk'
+export { default as fs } from 'fs-extra'
+export { default as glob } from 'globby'
+export { default as yaml } from 'yaml'
+export { default as which } from 'which'
+
 export type Shell = (
   pieces: TemplateStringsArray,
   ...args: any[]
